@@ -1,0 +1,20 @@
+.travelAdvisor-appBar {
+  .toolBar {
+    display: flex;
+    justify-content: space-between;
+    .searchBox {
+      display: flex;
+      align-items: center;
+      padding: 5px;
+      margin-left: 15px;
+      border-radius: 5px;
+      background-color: #00000030;
+      .searchInput {
+        margin-left: 5px;
+      }
+      .searchIcon {
+        cursor: pointer;
+      }
+    }
+  }
+}
